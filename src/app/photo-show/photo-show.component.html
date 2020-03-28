@@ -1,0 +1,11 @@
+<div class="container" >
+
+<div class="columns is-centered" style="margin: 20px;">
+  <button class="button is-danger" (click) = "onClick()">Fetch New Image</button>
+</div>
+
+<div class="columns is-centered">
+<img  [src] = "photoUrl" *ngIf = "photoUrl"  />
+</div>
+
+</div>
